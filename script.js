@@ -1,4 +1,6 @@
-const hello = document.getElementById("hello");
+document.addEventListener('DOMContentLoaded', () => {
+    const hello = document.getElementById("hello");
     hello.addEventListener("click", () => {
-      hello.textContent = "こんにちは世界！";
+        hello.textContent = "こんにちは世界！";
     });
+});
