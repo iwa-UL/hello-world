@@ -3,34 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Hello World</title>
-  <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: linear-gradient(135deg, #89f7fe, #66a6ff);
-      font-family: sans-serif;
-    }
-    h1 {
-      color: white;
-      font-size: 3em;
-      animation: fadeIn 2s ease-in-out infinite alternate;
-    }
-    @keyframes fadeIn {
-      from { opacity: 0.3; transform: scale(0.9); }
-      to { opacity: 1; transform: scale(1.05); }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1 id="hello">Hello World</h1>
-  <script>
-    const hello = document.getElementById("hello");
-    hello.addEventListener("click", () => {
-      hello.textContent = "こんにちは世界！";
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
